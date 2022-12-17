@@ -35,6 +35,9 @@ Currently, only authentication via API key is supported. We will support for JWT
 in the future.
 
 ```go
+client := squeeze_go_client.NewClient("https://your.squeeze.one/api/v2")
+client.ApiKey = "..."
+```
 
 ## Tests
 
